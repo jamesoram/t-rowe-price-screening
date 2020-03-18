@@ -1,4 +1,7 @@
-// this could be a map or a tuple but I decided to create a new class for extensibility purposes
+/**
+ * Sentence info holds information about a sentence.
+ * (this could be a map or a tuple but I decided to create a new class for extensibility purposes)
+ */
 public class SentenceInfo {
 
     private String longestWord;
