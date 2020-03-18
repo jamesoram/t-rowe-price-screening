@@ -18,8 +18,8 @@ public class SentenceInfo {
     }
 
     private int getWordLength(String word) {
-        if (null != shortestWord) {
-            return shortestWord.length();
+        if (null != word) {
+            return word.length();
         } else {
             return 0;
         }
